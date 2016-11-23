@@ -7,4 +7,6 @@ There was a business need to audit the correctness of Juniper configs which is e
 
 The script will take a juniper config piped to it from STDIN and output the results to STDOUT 
 
+You will need to `chown 755 juniper-config-to-set.php` after you download it, you may also need to check the PHP path in the start of the file.
+
 Usage example:  `cat juniper-config.txt | juniper-config-to-set.php`
